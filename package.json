@@ -1,0 +1,18 @@
+{
+  "name": "tiltnin-tracking",
+  "version": "1.0.0",
+  "description": "Simple tracking UI + QR code for tow driver ETA demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "body-parser": "^1.20.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
